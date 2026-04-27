@@ -1,0 +1,21 @@
+{
+    "name": "cblego-test",
+    "app": {
+        "cfengine": "lucee@5"
+    },
+    "web": {
+        "host": "0.0.0.0",
+        "http": {
+            "port": 80,
+            "enable": false
+        },
+        "ssl": {
+            "enable": true,
+            "port": 443,
+            "certFile": "/home/ubuntu/.lego/certificates/lego-test.designbygeorge.dev.crt",
+            "keyFile": "/home/ubuntu/.lego/certificates/lego-test.designbygeorge.dev.key"
+        }
+    },
+    "openBrowser": false,
+    "profile": "production"
+}
